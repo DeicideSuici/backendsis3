@@ -1,19 +1,28 @@
-### Create Virtual Enviroment
+## Create Virtual Enviroment
+```
+$ python -m virtualenv [name_of_enviroment]
+```
 
-> $ _python -m virtualenv (name_of_enviroment)_
+## Activate Virtual Enviroment
+```
+$ [name_of_enviroment]\Scripts\activate
+```
 
-### Activate Virtual Enviroment
+## Deactivate Virtual Enviroment
+```
+$ [name_of_enviroment]\Scripts\deactivate
+```
 
-> $ _(name_of_enviroment)\Scripts\activate_
+## Install Libraries
+```
+$ pip install requeriments.txt
+```
 
-### Deactivate Virtual Enviroment
+## Start Server
+```
+$ uvicorn main:app --reload
+```
 
-> $ _(name_of_enviroment)\Scripts\deactivate_
-
-### Install Libraries
-
-> $ _pip install requeriments.txt_
-
-### Start Server
-
-> $ _uvicorn main:app --reload_
+_The server has initialized in `http://localhost:8000`_
+<br>
+_Check the API documentation in `http://localhost:8000/docs`_
